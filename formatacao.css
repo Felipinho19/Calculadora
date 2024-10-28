@@ -1,0 +1,53 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
+input{
+    color: white;
+    padding: 17px;
+    outline: none;
+    font-size: 30px;
+    border-radius: 25%;
+}
+
+.num{
+    width: 64px;
+    height: 64px;
+}
+
+.text{
+    width: 160px;
+    height: 26px;
+    border-radius: 22px;
+    letter-spacing: 5px;
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+.main{
+    display: inline-block;
+}
+
+.maincolor{
+    background-color: black;
+}
+
+.text1{
+    width: 24px;
+    height: 26px;
+    border-radius: 50%;
+    letter-spacing: 5px;
+    text-align: center;
+    margin-bottom: 12px;
+    cursor: pointer;
+}
+
+.blue{
+    background-color: rgb(63, 63, 158);
+}
